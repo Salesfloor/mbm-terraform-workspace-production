@@ -22,16 +22,57 @@ allowed_ips = [
   },
   {
     "cidr_block" : "3.213.202.205/32",
-    "description" : "VPN"
+    "description" : "VPN IP"
   },
   {
     "cidr_block" : "70.82.55.20/32",
-    "description" : "Office VPN 1"
+    "description" : "Office IP"
   },
   {
     "cidr_block" : "24.48.98.186/32",
     "description" : "Office VPN 2"
   },
+  {
+    "cidr_block" : "34.95.17.15/32",
+    "description" : "CloudNat IP 1"
+  },
+  {
+    "cidr_block" : "34.95.25.111/32",
+    "description" : "CloudNat IP 2"
+  },
+  {
+    "cidr_block" : "34.152.15.5/32",
+    "description" : "CloudNat IP 3"
+  },
+  {
+    "cidr_block" : "35.203.90.70/32",
+    "description" : "CloudNat IP 4"
+  },
+  {
+    "cidr_block" : "34.95.60.76/32",
+    "description" : "CloudNat IP 5"
+  },
+  {
+    "cidr_block" : "34.152.47.84/32",
+    "description" : "CloudNat IP 6"
+  },
+  {
+    "cidr_block" : "34.152.24.66/32",
+    "description" : "CloudNat IP 7"
+  },
+  {
+    "cidr_block" : "34.95.3.229/32",
+    "description" : "CloudNat IP 8"
+  },
+  {
+    "cidr_block" : "34.152.17.67/32",
+    "description" : "CloudNat IP 9"
+  },
+  {
+    "cidr_block" : "35.203.23.110/32",
+    "description" : "CloudNat IP 10"
+  },
+  
 ]
 role_name = "build-server-role"
 
