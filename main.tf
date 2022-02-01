@@ -22,7 +22,7 @@ module "network" {
 
 module "instances" {
   # Should be changed to v0.1.1
-  source           = "git@sgit.cloudops.com:consulting/clients/salesfloor/terraform-modules/mac-instances.git?ref=v0.1.0"
+  source = "git@sgit.cloudops.com:consulting/clients/salesfloor/terraform-modules/mac-instances.git?ref=v0.1.0"
 
   nos_of_instances = var.nos_of_instances
   vpc_id           = module.network.vpc_id

@@ -72,7 +72,7 @@ allowed_ips = [
     "cidr_block" : "35.203.23.110/32",
     "description" : "CloudNat IP 10"
   },
-  
+
 ]
 role_name = "build-server-role"
 
