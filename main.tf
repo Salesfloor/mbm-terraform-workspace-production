@@ -10,7 +10,7 @@
 
 
 module "network" {
-  source               = "git@sgit.cloudops.com:consulting/clients/salesfloor/terraform-modules/networking.git?ref=v0.0.4"
+  source               = "git@sgit.cloudops.com:consulting/clients/salesfloor/terraform-modules/networking.git?ref=v0.1.0"
   aws_region           = var.aws_region
   service              = var.service
   env                  = var.env
@@ -21,7 +21,9 @@ module "network" {
 }
 
 module "instances" {
+  # Should be changed to v0.1.1
   source           = "git@sgit.cloudops.com:consulting/clients/salesfloor/terraform-modules/mac-instances.git?ref=v0.1.0"
+
   nos_of_instances = var.nos_of_instances
   vpc_id           = module.network.vpc_id
   subnet_ids       = module.network.public_subnet_ids
