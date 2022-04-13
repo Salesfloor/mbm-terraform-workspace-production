@@ -9,7 +9,7 @@ cidr                = "10.10.0.0/16"
 public_subnet_cidrs = ["10.10.0.0/24", "10.10.1.0/24"]
 
 # Instances
-ami              = "ami-0153ce059c6d80a47"
+ami              = "ami-004d06ff850fd0899"
 nos_of_instances = 1
 allowed_ips = [
   {
@@ -19,6 +19,10 @@ allowed_ips = [
   {
     "cidr_block" : "174.112.104.40/32",
     "description" : "Akshits Home"
+  },
+  {
+    "cidr_block" : "67.68.166.197/32",
+    "description" : "Moustaphas Home"
   },
   {
     "cidr_block" : "3.213.202.205/32",
