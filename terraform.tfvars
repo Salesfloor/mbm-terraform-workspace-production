@@ -1,15 +1,15 @@
 # General
 aws_region = "us-east-1"
 az_list    = ["us-east-1a", "us-east-1b"] # we specify the az_list to restrict the regions to only where Mac os instances are available
-env        = "prod"                       // eg: stg,prod
+env        = "production"                       // eg: stg,prod
 
 # Network
 service             = "build-server"
-cidr                = "10.10.0.0/16"
-public_subnet_cidrs = ["10.10.0.0/24", "10.10.1.0/24"]
+cidr                = "10.11.0.0/16"
+public_subnet_cidrs = ["10.11.0.0/24", "10.11.1.0/24"]
 
 # Instances
-ami              = "ami-004d06ff850fd0899"
+ami              = "ami-075f11e290e48113a"
 nos_of_instances = 1
 allowed_ips = [
   {

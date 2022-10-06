@@ -14,7 +14,7 @@ variable "service" {
 variable "env" {
   type        = string
   description = "env added to names/tags of all resources"
-  default     = "prod"
+  default     = "production"
 }
 
 # Network

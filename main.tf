@@ -21,8 +21,8 @@ module "network" {
 }
 
 module "instances" {
-  # Should be changed to v0.1.1
-  source           = "git@github.com:Salesfloor/mbm-terraform-module-mac-instances.git?ref=v0.2.1"
+  # Should be changed to v0.2.2
+  source           = "git@github.com:Salesfloor/mbm-terraform-module-mac-instances.git?ref=v0.2.2"
 
   nos_of_instances = var.nos_of_instances
   vpc_id           = module.network.vpc_id
